@@ -1,3 +1,1 @@
-print ("hehe")
-print ("hoho")
-print ("haha")
+print ("Vua sua xong!")
