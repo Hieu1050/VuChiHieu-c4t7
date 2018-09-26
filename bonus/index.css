@@ -1,0 +1,24 @@
+h1 {
+    color: yellow; /*
+    h1 là selector
+    color là property
+    yellow là value*/
+}
+p{
+    color: blue;
+    background-color: yellow;
+}
+
+# first_p {
+    font-size: large;
+} /*nối vs 1 dòng p bên html */
+
+.bold{
+font-weight: bold
+
+}
+
+.box{
+    border: 1px solid green;
+
+}
