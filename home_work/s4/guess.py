@@ -4,7 +4,7 @@ top = 100
 bottom = 0 
 print ("you're thinking of", i)
 ans = int( input ("is that your num?(yes enter 1, no enter 0)    "))
-j =0
+j =1
 while ans == 0:
     ans1 = int(input ("is your num higher than that(yes enter 1, no enter 0)     "))
     if ans1 ==1:
