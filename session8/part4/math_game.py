@@ -51,9 +51,12 @@ while True:
     print ("Game over!")
     print ("")
     print ("Final score:", point)
-    scores.append (point)
+    if point not in scores:
+        scores.append (point)
     scores  =  (sorted(scores, key=int, reverse=True))
     print ("High scores:")
+    
+    
     if len(scores) <= 4:
         for i in range (len(scores)):
             print (i+1,". ", scores[i], sep = '') 
