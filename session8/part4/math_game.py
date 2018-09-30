@@ -70,3 +70,4 @@ while True:
         break
     point = 0
     life = 3
+    lvl = 10
